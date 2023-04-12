@@ -10,7 +10,7 @@ const ProdImage = ({ image }) => {
     >
       <img
         style={{ width: "20rem", objectFit: "cover" }}
-        height="100%"
+        height="10  0%"
         src={image}
       />
     </Box>

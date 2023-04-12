@@ -30,10 +30,10 @@ const ProdFilter = ({ sort, setSort }) => {
             name="type"
           >
             <MenuItem value="all">None</MenuItem>
-            <MenuItem value="electronics">Electronics</MenuItem>
-            <MenuItem value="footwears">Footwears</MenuItem>
-            <MenuItem value="shirts">Shirts & T-Shirts</MenuItem>
-            <MenuItem value="cosmetics">Cosmetics</MenuItem>
+            <MenuItem value="bamboo">bamboo</MenuItem>
+            <MenuItem value="earthenware">earthenware</MenuItem>
+            <MenuItem value="art & paintings">art & paintings & T-art & paintings</MenuItem>
+            <MenuItem value="wooden">wooden</MenuItem>
           </Select>
         </FormControl>
       </Box>

@@ -214,7 +214,7 @@ export default function PrimarySearchAppBar() {
             className="storeName"
             sx={{ display: { xs: "none", sm: "block" } }}
           >
-            MERN E-SHOP{" "}
+            Week-Mart{" "}
           </Typography>
 
           <Search>

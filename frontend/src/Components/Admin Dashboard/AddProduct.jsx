@@ -186,11 +186,11 @@ const AddProduct = () => {
                 label="Category"
                 onChange={handleChange}
               >
-                <MenuItem value="shirts">Shirts & T-Shirts</MenuItem>
+                <MenuItem value="art & paintings">art & paintings & T-art & paintings</MenuItem>
                 <MenuItem value="jeans">Jeans & Trousers</MenuItem>
-                <MenuItem value="electronics">Electronics</MenuItem>
-                <MenuItem value="footwears">Footwears</MenuItem>
-                <MenuItem value="cosmetics">Cosmetics</MenuItem>
+                <MenuItem value="bamboo">bamboo</MenuItem>
+                <MenuItem value="earthenware">earthenware</MenuItem>
+                <MenuItem value="wooden">wooden</MenuItem>
               </Select>
             </FormControl>
           </Grid>

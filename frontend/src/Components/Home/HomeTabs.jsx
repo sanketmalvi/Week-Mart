@@ -11,13 +11,13 @@ export default function HomeTabs() {
 
   React.useEffect(() => {
     let val;
-    if (active === "all" || active == "cosmetics") {
+    if (active === "all" || active == "wooden") {
       val = 3;
-    } else if (active === "electronics") {
+    } else if (active === "bamboo") {
       val = 0;
-    } else if (active === "footwears") {
+    } else if (active === "earthenware") {
       val = 1;
-    } else if (active === "shirts") {
+    } else if (active === "art & paintings") {
       val = 2;
     }
     setValue(val);
@@ -29,11 +29,11 @@ export default function HomeTabs() {
   const handleChange = (event, newValue) => {
     setValue(newValue);
     let active = "";
-    if (newValue === 0) active = "electronics";
-    else if (newValue === 1) active = "footwears";
-    else if (newValue === 2) active = "shirts";
+    if (newValue === 0) active = "bamboo";
+    else if (newValue === 1) active = "earthenware";
+    else if (newValue === 2) active = "art & paintings";
     else if (newValue === 3) active = "all";
-    else if (newValue === 4) active = "cosmetics";
+    else if (newValue === 4) active = "wooden";
     dispatch(setActiveProd(active));
     navigate("/all-products");
   };
@@ -67,9 +67,9 @@ export default function HomeTabs() {
         sx={{ color: "#424874" }}
         aria-label="scrollable auto tabs example"
       >
-        <Tab onClick={handleClick} label="Electronics" />
-        <Tab onClick={handleClick} label="Footwears" />
-        <Tab onClick={handleClick} label="Shirts" />
+        <Tab onClick={handleClick} label="bamboo" />
+        <Tab onClick={handleClick} label="earthenware" />
+        <Tab onClick={handleClick} label="art & paintings" />
         <Tab onClick={handleClick} label="all products" />
       </Tabs>
     </Box>

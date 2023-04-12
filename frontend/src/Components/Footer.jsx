@@ -10,7 +10,7 @@ import MyFooter from "./Pages/MyFooter";
 const Footer = () => {
   const usefulLinks = [
     "Home",
-    "Men Fashion",
+    "Fashion",
     "Accessories",
     "Order Tracking",
     "Wishlist",
@@ -46,7 +46,7 @@ const Footer = () => {
             Mern E-Shop
           </Typography>
           <Typography variant="body2" paragraph maxWidth={300}>
-            Mern E-Shop is a full stack web app developed by Abhishek, offering
+            Mern E-Shop is a full stack web app developed by Sanket, offering
             a lot of features such as separate admin/seller/user page, real time
             payment gateway, account verification on link click and a lot more.
             Explore this app to know more features.
@@ -82,15 +82,15 @@ const Footer = () => {
           <Stack spacing={2} direction="column">
             <Stack spacing={2} direction="row">
               <FmdGoodRoundedIcon />
-              <Typography paragraph>Ayodhya, Uttar Pradesh, India</Typography>
+              <Typography paragraph>Betul, Madhya Pradesh, India</Typography>
             </Stack>
             <Stack spacing={2} direction="row">
               <CallRoundedIcon />
-              <Typography paragraph>+91 8090756054</Typography>
+              <Typography paragraph>+91 794561354</Typography>
             </Stack>
             <Stack spacing={2} direction="row">
               <MailRoundedIcon />
-              <Typography paragraph>theabhishek1802@gmail.com</Typography>
+              <Typography paragraph>as7366902@gmail.com</Typography>
             </Stack>
           </Stack>
         </Stack>

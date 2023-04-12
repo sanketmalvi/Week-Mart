@@ -3,10 +3,10 @@ import React from "react";
 
 const GridCategories = () => {
   const imgArr = [
-    "https://sslimages.shoppersstop.com/sys-master/root/h53/h44/28356857856030/4-Widgets-Stop-Web---smart--20908823fhh.jpg",
-    "https://sslimages.shoppersstop.com/sys-master/root/h08/h2d/28250988478494/More-Brands-Footwear-Pointed-Toe-4-Widgets-Web-aaaa_hhd.jpg",
-    "https://sslimages.shoppersstop.com/sys-master/root/h4d/hf5/28257974222878/4-Widgets-Fratnii-Web-samrt-pants-20220913-hp-pages-exclu.jpg",
-    "https://sslimages.shoppersstop.com/sys-master/root/h4c/h6d/28274020712478/Tote_4-Widgets-web---2022-09-16-hp-page.jpg",
+    "https://serving.photos.photobox.com/4618359051aaebe7c4f1594c47ec25e8a4805f6581ba198f3873560f603a4aa04b00513c.jpg",
+    "https://cdn.shopify.com/s/files/1/0080/5801/1729/products/VandaTerracottaPot3.jpg?v=1648457634",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSoORp6B8U6zCzedCK9zBkK0A8pGCdn-JbdeTWE3PUrviJQi24ReOI6Lh1D6m9UnanKWY&usqp=CAU",
+    "https://serving.photos.photobox.com/970383132029ab89ffe5fc53f1ce26d85ffc1f00f4a37c1e474a2b3c54ad9cccf63431fb.jpg",
   ];
   return (
     <Box padding={"30px 0"}>
@@ -42,7 +42,7 @@ const GridCategories = () => {
             height={420}
             sx={{
               backgroundPosition: "center",
-              backgroundImage: `url(${"https://sslimages.shoppersstop.com/sys-master/root/hf4/hf6/28250969440286/web_PUMA_ADDIDAS_3x3-Widgets_12092022replace.jpg"})`,
+              backgroundImage: `url(${"https://thevillagecraftstore.com/wp-content/uploads/2020/12/Bamboo-Cup-%E2%80%93-Designer.jpg"})`,
               backgroundRepeat: "no-repeat",
             }}
           ></Box>
@@ -53,7 +53,7 @@ const GridCategories = () => {
             height={420}
             sx={{
               backgroundPosition: "center",
-              backgroundImage: `url(${"https://sslimages.shoppersstop.com/sys-master/root/hb3/hfa/28250969571358/web_alt-life-alcis_3x3Widgets_12092022replace.jpg"})`,
+              backgroundImage: `url(${"https://www.goindigo.in/content/dam/indigov2/6e-website/destinations/shillong/BambooCraft.jpg"})`,
               backgroundRepeat: "no-repeat",
             }}
           ></Box>
@@ -64,7 +64,7 @@ const GridCategories = () => {
             height={420}
             sx={{
               backgroundPosition: "center",
-              backgroundImage: `url(${"https://sslimages.shoppersstop.com/sys-master/root/h65/h9a/28250976944158/SKECHERS_3x3-Widgets--webs-size-hp--202209-13-dont-miss-textx.jpg"})`,
+              backgroundImage: `url(${"https://images.news18.com/ibnlive/uploads/2021/03/1615457169_rtr1wny2.jpg?impolicy=website&width=510&height=356"})`,
               backgroundRepeat: "no-repeat",
             }}
           ></Box>
